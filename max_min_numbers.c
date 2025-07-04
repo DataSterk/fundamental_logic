@@ -11,8 +11,8 @@ int main () {
 	
 	
 	// max and min are used for comparision,
-	int max = 0; // Intialize to avoid garbage value.
-	int min = 0; // intialize to avoid garbage value.
+	int max = array[0]; // Intialize to avoid garbage value.
+	int min = array[0]; // intialize to avoid garbage value.
 	
 	
 	// to complete 10 iterations 'i' could be start from 0, 1 upto 9 and 10 depending upon initial value.
