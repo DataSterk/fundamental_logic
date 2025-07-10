@@ -65,7 +65,7 @@ int main() {
 		for (i = 2; i < lower_limit; i++) {
 					
 			if (lower_limit % i == 0) {
-//							printf("%d %d %d", lower_limit, i,100);
+//							
 				prime = 0;
 				break;
 			} 
