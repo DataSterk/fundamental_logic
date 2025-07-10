@@ -60,7 +60,7 @@ int main() {
 	
 	
 	for(lower_limit; lower_limit<=upper_limit;lower_limit++) {
-	//	prime=0;
+//		prime=0;
 		
 		for (i = 2; i < lower_limit; i++) {
 					
@@ -70,24 +70,18 @@ int main() {
 				break;
 			} 
 			
-			//else {
-			//	prime=1;
-			//}
+			else {
+				prime=1;
+			}
 			
 		} 
 		//printf("%d %d", prime, lower_limit);
 		if(prime == 1) {
-			printf("%d", lower_limit);
+			printf("%d ", lower_limit);
 	}
 		} 
 		
-		
-	
-	
-	
     return 0;	
 
 }
-
-
 
